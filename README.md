@@ -3,11 +3,11 @@
 
 ## Environment
 ```shell
-conda create -n arldm python=3.8
-conda activate arldm
+conda create -n lm-ldm python=3.8
+conda activate lm-ldm
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch-lts
-git clone https://github.com/Flash-321/ARLDM.git
-cd ARLDM
+git clone https://github.com/othmane-ab/LM-LDM.git
+cd LM-LDM
 pip install -r requirements.txt
 ```
 ## Data Preparation
@@ -37,7 +37,7 @@ python main.py
 ```
 
 ## Acknowledgment
-Thanks a lot to (https://github.com/ARLDM) for kindly sharing FlintstonesSV dataset (and the code).
+Thanks a lot to (https://github.com/Flash-321/ARLDM.git) for kindly sharing FlintstonesSV dataset (and the code).
 
 ```bibtex
 @article{pan2022synthesizing,
